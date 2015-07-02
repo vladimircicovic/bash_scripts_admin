@@ -12,6 +12,7 @@ if [ -z "$1" ];then
 fi
 
 
-if [ -z "$PID" ];then 
-/etc/init.d/$1
+if [ -z "$PID" ];then
+/etc/init.d/$1 stop 
+/etc/init.d/$1 start
 fi
