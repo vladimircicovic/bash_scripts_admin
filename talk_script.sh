@@ -1,4 +1,6 @@
 #!/bin/bash
+( wget --version > /dev/null 2>&1 ) ||  ( echo no wget installed ) && exit
+( mpg123 --version > /dev/null 2>&1 ) ||  ( echo no mpg123 installed ) && exit
 
 input=$1
 

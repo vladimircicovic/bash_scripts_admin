@@ -1,4 +1,4 @@
-( curl -version > /dev/null 2>&1 ) ||  ( echo no curl installed; sleep 100000)
+( curl -version > /dev/null 2>&1 ) ||  ( echo no curl installed ) && exit
 SLEEP_TIME=2
 SITE=gmail.com
 while true; do
