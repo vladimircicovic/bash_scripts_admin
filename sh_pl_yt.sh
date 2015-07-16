@@ -11,4 +11,4 @@ pvl() { (for i in "$@"; do youtube-dl -q --max-downloads 1 --no-playlist "$i" -o
 (mplayer >> /dev/null 2>&1) || (echo no mplayer installed;sleep 500000)
 (youtube-dl --version >> /dev/null 2>&1) || (echo no youtube-dl installed;sleep 500000)
 
-pvl 'http://www.youtube.com/watch?v=5AOI0aXiL6I' 'https://www.youtube.com/watch?v=svngvOLPd5E'
+pvl 'https://www.youtube.com/watch?v=2BTz8pbajQE&list=PLg3u5tA90lsZ0T-CSPNgCs6MQgJVinZNS'
